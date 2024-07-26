@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simran Bhargava</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/785819a6a9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header  class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <span class="menu-toggle">☰</span>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="home-text">
+                <h3>Hello It's Me</h3>
+                <h1 style="color: aquamarine;">Simran Bhargava</h1>
+                <h3>And I'm a</h3>
+                <h2>Web Designer</h2>
+            </div>
+
+            <div class="home-sci">
+                <img src="aiimg.jpg" class="img" alt="Simran Bhargava">
+            </div>
+        </div>
+    </section>
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="aiimg.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a proactive and passionate 3rd-year CSE student, I believe we can conquer AI by harnessing its own
+                        power. In the end, we will only defeat it by learning from it. This battle is incredibly intriguing, and I am
+                        excited to fight it on behalf of your company And eager to contribute my strong foundation in Data
+                        Structures and Algorithms (DSA), Web Development, and Database Management Systems (DBMS) to
+                        Trident.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                        <p class="tab-links" onclick="opentab(event, 'courses')">Courses</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span></li>
+                            <li><span>My SQL</span></li>
+                            <li><span>C/C++</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>HTML</span></li>
+                            <li><span>Java Script</span></li>
+                            <li><span>ReactJs</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>B.Tech Computer Science and Engineering <br>
+                                At Dr B R Ambedkar National Institute of Technology
+                            </li>
+                            <li><span>2019-2020</span><br>12th (93.80%) <br>Sunrise Academy Sen. Sec. School</li>
+                            <li><span>2017-2018</span><br>10th (92.500) <br>Govt. Girls Sen. Sec. School</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="courses">
+                        <ul>
+                            <li><span>Database and Management System</span></li>
+                            <li><span>Machine Learning</span></li>
+                            <li><span>Computer Networks</span></li>
+                            <li><span>Object-Oriented Programming (OOPs)</span></li>
+                            <li><span>Computer Architecture</span></li>
+                            <li><span>Operating System</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------Projects-----------------> 
+    <section>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="News-Apps-Header.jpg" alt="">
+                        <div class="layer">
+                            <h3>The Newllywood: A News App</h3>
+                            <p>Developed a dynamic and visually appealing news application using HTML, CSS, and JavaScript. Integrated
+                                third-party news APIs to fetch and display real-time news articles, providing users with up-to-date information
+                                on various topics.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="hostel-insta.jpg" alt="">
+                        <div class="layer">
+                            <h3>Hostel-Insta: Hostel Management System</h3>
+                            <p>Inspired by personal experiences in my hostel, where discrepancies and lack of transparency in mess account
+                                management were common, I developed an online system to address these issues. This project utilizes DBMS
+                                and OOP concepts to provide a reliable and transparent platform for managing hostel mess accounts.
+                                </p>
+                                <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="project.jpg" alt="">
+                        <div class="layer">
+                            <h3>The Newllywood: A News App</h3>
+                            <p>Developed a dynamic and visually appealing news application using HTML, CSS, and JavaScript. Integrated
+                                third-party news APIs to fetch and display real-time news articles, providing users with up-to-date information
+                                on various topics.
+                                </p>
+                                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+    <div class="button-container">
+        <a href="#" class="btn">See More</a>
+    </div>
+<!-----------------contact-------------------->
+
+<div id="contact" class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> Simranbhargav2003@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 7297964489</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Resume.pdf" download class="btn2 btn"><i class="fa-solid fa-download"></i> Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="example@gmail.com" required>
+                    <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <p>Copyright ©️ Simran Bhargava. Made by simranbhargava</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(event, tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        const menuToggle = document.querySelector('.menu-toggle');
+    const navbar = document.querySelector('.navbar');
+
+    menuToggle.addEventListener('click', () => {
+        navbar.classList.toggle('active');
+    });
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyJsi29RkBA4vv6w42sJvKNsznBGW0D09wD1zZkAuzmt9fg8gksKpDPXI1BqWthB82b/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
